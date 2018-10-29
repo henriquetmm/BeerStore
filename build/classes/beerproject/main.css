@@ -1,0 +1,5 @@
+.root {
+    -fx-padding: 5px;
+    -fx-vgap: 5px;
+    -fx-hgap: 5px;
+}

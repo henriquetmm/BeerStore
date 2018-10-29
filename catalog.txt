@@ -1,0 +1,76 @@
+40
+Pilsner
+false
+Pilsner Urquell
+20
+Pilsner
+false
+Steam Whistle
+10
+Pilsner
+false
+Old Style Pilsner
+10
+Lager
+false
+Budweiser
+30
+Lager
+false
+Heineken
+10
+Lager
+false
+Coors
+10
+Lager
+false
+Corona
+30
+Ale
+false
+1857 kolsch-style ale
+20
+Ale
+false
+360 pale ale
+30
+Ale
+false
+Delirium Tremens
+20
+Ale
+false
+Granville English Bay
+20
+Wheat
+false
+Belgian Moon
+30
+Wheat
+false
+Franziskaner
+20
+Wheat
+false
+Hoegaarden
+10
+Wheat
+false
+Allagash White
+50
+Ale
+true
+Brooklyn East India Pale Ale Beer
+60
+Ale
+true
+Goose Island
+70
+Ale
+true
+90 Minute IPA
+10
+Lager
+false
+Canadian

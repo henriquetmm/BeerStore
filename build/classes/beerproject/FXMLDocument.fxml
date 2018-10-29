@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+
+<GridPane id="mainpane" prefHeight="400" prefWidth="340" xmlns:fx="http://javafx.com/fxml/1" fx:controller="beerproject.FXMLDocumentController">
+    <children>
+        <Label text="Name" GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.halignment="CENTER"/>
+        <Label text="Base grain" GridPane.rowIndex="0" GridPane.columnIndex="1" GridPane.halignment="CENTER"/>
+        <TextField fx:id="txtName" GridPane.rowIndex="1" GridPane.columnIndex="0" GridPane.halignment="CENTER"/>
+        <ComboBox fx:id="ddlBase" GridPane.rowIndex="1" GridPane.columnIndex="1" GridPane.halignment="CENTER"/>
+        
+        <Label text="Bitterness (in IBU)" GridPane.rowIndex="4" GridPane.columnIndex="0" GridPane.halignment="CENTER"/>
+        <Label text="India Pale Ale" GridPane.rowIndex="4" GridPane.columnIndex="1" GridPane.halignment="CENTER"/>
+        <ComboBox fx:id="ddlIbu" GridPane.rowIndex="5" GridPane.columnIndex="0" GridPane.halignment="CENTER"/>
+        <CheckBox fx:id="chkIPA"  selected="false" GridPane.rowIndex="5" GridPane.columnIndex="1" GridPane.halignment="CENTER" />
+        <Button text="Find Beer" onMouseClicked="#find" fx:id="btnCalc" GridPane.rowIndex="6" GridPane.columnIndex="0" GridPane.halignment="CENTER">
+            <maxWidth>
+                <Double fx:constant="MAX_VALUE"/>
+            </maxWidth>      
+        </Button>
+        <Button text="Save and Exit" onMouseClicked="#save" fx:id="btnExit" GridPane.rowIndex="6" GridPane.columnIndex="1">
+            <maxWidth>
+                <Double fx:constant="MAX_VALUE"/>
+            </maxWidth>      
+        </Button>
+        <Button text="Next Beer" onMouseClicked="#next" fx:id="btnNext" GridPane.rowIndex="7" GridPane.columnIndex="0" GridPane.halignment="CENTER">
+            <maxWidth>
+                <Double fx:constant="MAX_VALUE"/>
+            </maxWidth>      
+        </Button>
+        <Button text="Previous Beer"  onMouseClicked="#previous" fx:id="btnPrev" GridPane.rowIndex="7" GridPane.columnIndex="1">
+            <maxWidth>
+                <Double fx:constant="MAX_VALUE"/>
+            </maxWidth>      
+        </Button>
+         <Button text="Add" onMouseClicked="#add" fx:id="btnAdd" GridPane.rowIndex="8" GridPane.columnIndex="0" GridPane.halignment="CENTER">
+            <maxWidth>
+                <Double fx:constant="MAX_VALUE"/>
+            </maxWidth>      
+        </Button>
+        <Button text="Remove" onMouseClicked="#remove" fx:id="btnRem" GridPane.rowIndex="8" GridPane.columnIndex="1">
+            <maxWidth>
+                <Double fx:constant="MAX_VALUE"/>
+            </maxWidth>      
+        </Button>
+        <TextArea  text="" fx:id="txtOut" GridPane.rowIndex="9" GridPane.columnIndex="0" GridPane.columnSpan="2"/>
+    </children>
+    <stylesheets>
+        <URL value="@main.css" />        
+    </stylesheets>
+</GridPane>
